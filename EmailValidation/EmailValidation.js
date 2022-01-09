@@ -67,3 +67,13 @@ try{                                                                        //tr
 catch (e){
     console.log(e);
 }
+
+//UC4 Handling optional part xyz
+
+try{                                                                        //try catch block to handle errors when user enter wrong emailID
+    let object6=new EmailValidation("abc.ab+@bridgelabz.co.in");             //handling optional part 
+    console.log(object6.toString());
+}
+catch (e){
+    console.log(e);
+}
