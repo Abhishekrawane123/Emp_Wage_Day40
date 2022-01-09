@@ -41,3 +41,13 @@ try{
 catch (e){
     console.log(e);
 }
+
+//UC3 : Restricting taking Pincode other than Numbers at Ending.
+
+try{
+    let object2=new RegexCheck("40008B");
+    console.log(object2.toString());
+}
+catch (e){
+    console.log(e);
+}
